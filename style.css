@@ -38,6 +38,7 @@
 #icon {
     width: 30px;
     cursor: pointer;
+     margin: 0 14px;
     text-align: right;
 }
 
@@ -509,6 +510,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
+    justify-content: center;
     gap: 2.5rem;
 
 
@@ -573,7 +575,7 @@ section {
 .projects-box {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-
+    justify-content: center;
     place-items: center;
     grid-area: 3rem;
     row-gap: 5rem;
@@ -747,8 +749,6 @@ section {
     .about {
         flex-direction: column-reverse;
         margin: 2rem 0;
-
-
     }
 
     .about h2 {
